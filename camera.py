@@ -19,7 +19,7 @@ camera.annotate_background = Color(0,0,0)
 camera.annotate_background = Color('black')
 sleep(2)
 
-camera.capture('/home/pi/Web Server/static/image.jpg')
+camera.capture('/home/pi/hackumass-knockknock/Web Server/static/image.jpg')
     
 camera.stop_preview()
 
