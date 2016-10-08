@@ -105,6 +105,10 @@ a {
   top: -475px;
 }
 
+.image {
+	width: 100%;
+}
+
 .unlock-container {
   width: 145px;
   margin: auto;
