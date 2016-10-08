@@ -1,0 +1,73 @@
+@media screen and (min-width:600px){
+    html {
+        padding-right:40px;
+        padding-left:40px;
+        background-color:black;
+        color:#adadad;
+        font-family: 'Slabo 27px', serif;
+        border-left:50px solid #006387;
+        border-right:50px solid #006387;
+    }
+    
+    
+    h1{
+        font-family: 'Lobster', cursive;
+        font-size: 10em;
+        font-style: italic;
+        text-align:center;
+        font-weight:normal;
+        text-shadow: 5px 5px  #d9d9d9;
+    }
+
+	 #description{
+	text-align:center;
+font-size: 2em;
+}
+    
+    section{
+display: block;
+}
+    
+    #butt{
+        display: block;
+        width: 33%;
+        height: 50px;
+        text-align: center;
+        padding:10px;
+        margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;   
+    }
+    
+    button{
+        font-size:4em !important;
+display: block;
+    }
+    
+    #camerafeed{
+        display: block;
+        max-width: 50%;
+        height: auto; 
+        text-align: center;
+        padding:10px;
+        margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    }
+
+	img {
+display: block;
+max-width: 100%;
+        height: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+}
+    
+    #widget{
+        text-align: center;
+display: block;
+margin-top: 100px;
+border: 2px solid white;
+    }
+}

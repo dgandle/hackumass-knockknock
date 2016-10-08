@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<title>Knock Knock</title>
+        <link rel = "stylesheet" type = "text/css" href = '/static/style.css' />
+        <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+
+    <body>
+    
+    <h1>Knock Knock</h1>
+        <p id = "description">Are you tired of fumbling through your pockets for keys when you're at the door? Do you have kids who come home from school when you're not home? Did you leave your keys inside in a rush to get out the door? Or do you even need a friend to watch your house while you are on vacation? Well worry no more, Knock Knock is your solution with keyless and facial recognition technology. Access your house's or dorm room's door remotely from anywhere in the world as long as you have an internet connection, or, with a registered list of faces, have the door unlock automatically when you approach! Get one step lazier with this door that you can open from the couch and get yours now!
+            </p>
+        
+    <section>
+
+	<div id = "camerafeed">
+            <img src = "{{ image }}" alt = "camera capture">
+        </div>
+
+        <div id = "butt">
+        <a href=/opening><button>Unlock</button></a>
+        </div>
+        
+        
+        </section>
+        
+        <div id = "widget">
+            <p class = "inside">
+            perhaps some sort of "register faces" widget thing... clarifai?
+            </p>
+        </div>
+        
+    </body>
+</html>
