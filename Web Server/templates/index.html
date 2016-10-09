@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Knock Knock!</title>
-    <link rel = "stylesheet" type = "text/css" href = 'static/style.css' />
+    <!-- <link rel = "stylesheet" type = "text/css" href = 'static/style.css' /> -->
+    <link rel = "stylesheet" type = "text/css" href = '../static/style.css' />
     <link rel="shortcut icon" href="static/favicon.ico"/>
   </head>
 
@@ -58,11 +59,8 @@
           <p class='unlock-text'>{{ buttontext }}</p>
         </a>
 
-        <p id='clown-alert' class='show'>CLOWN ALERT</p>
+        <p id='clown-alert' class='{{ display }}'>CLOWN ALERT</p>
       </div>
-
-      <!-- clown test code -->
-      <p class='clown'>{{ clownyn }}</p>
 
     </div>
   </body>

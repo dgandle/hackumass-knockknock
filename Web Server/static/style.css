@@ -134,7 +134,14 @@ a {
 }
 
 #clown-alert {
-	font-size: 72px;
+	font-size: 160px;
+	position: relative;
+	top: -916px;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
 }
 
 .show {
@@ -143,4 +150,25 @@ a {
 
 .hide {
 	display: none;
+}
+
+@-webkit-keyframes blink {
+        0%   { color:#E5E7DE; }
+        50%  { color:#F9320C;}
+        100% { color:#E5E7DE; }
+}
+@-moz-keyframes blink {
+        0%   { color:#E5E7DE; }
+        50%  { color:#F9320C;}
+        100% { color:#E5E7DE; }
+}
+@-ms-keyframes blink {
+        0%   { color:#E5E7DE; }
+        50%  { color:#F9320C;}
+        100% { color:#E5E7DE; }
+}
+#clown-alert{
+     -webkit-animation: blink 0.1s infinite;
+     -moz-animation:    blink 0.1s infinite;
+     -ms-animation:     blink 0.1s infinite;
 }
