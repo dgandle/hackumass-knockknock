@@ -5,7 +5,8 @@ app = ClarifaiApp("INUyp_yCjazrOaEHiOYUuj2z9IMn8NI02QLMtYpQ","o6lCyQZYokg84eRY-J
 
 url = 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Clouds_over_the_Atlantic_Ocean.jpg'
 model = app.models.get('general-v1.3')
-image = ClImage(url=url)
+image = ClImage(url=url) 
+
 app._parse_response(model.predict([image]))
 
 

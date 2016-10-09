@@ -15,7 +15,8 @@ def index():
     templateData = {
         'image' : '/static/image.jpg',
         'route' : '/opening',
-        'button-text' : 'unlock'
+        'unlock-display' : 'show',
+        'lock-display' : 'hide'
     }
     return render_template('index.html', **templateData)
 
@@ -26,7 +27,8 @@ def runmotor():
     templateData = {
         'image' : '/static/image.jpg',
         'route' : '/closing',
-        'button-text' : 'unlock'
+        'unlock-display' : 'show',
+        'lock-display' : 'hide'
     }
     return render_template('index.html', **templateData)
 
@@ -37,7 +39,8 @@ def closemotor():
     templateData = {
         'image' : '/static/image.jpg',
         'route' : '/opening',
-        'button-text' : 'lock'
+        'unlock-display' : 'hide',
+        'lock-display' : 'show'
     }
     return render_template('index.html', **templateData)
 
