@@ -12,10 +12,16 @@ app = Flask(__name__)
 @app.route('/')
 
 def index():
+
+    file = open('clowning.txt','r')
+    clown = file.read()
+    file.close()
+    
     templateData = {
         'image' : '/static/image.jpg',
         'route' : '/opening',
-        'buttontext' : 'unlock'
+        'buttontext' : 'unlock',
+        'clownyn' : clown
     }
     return render_template('index.html', **templateData)
 
