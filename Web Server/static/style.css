@@ -111,7 +111,7 @@ a {
 	width: 100%;
 }
 
-.unlock-container {
+#unlock-container {
   width: 145px;
   margin: auto;
 }
@@ -121,7 +121,7 @@ a {
   top: -440px;
 }
 
-.unlock-container:hover #unlock-button-path {
+#unlock-container:hover #unlock-button-path {
   fill: #2F292B;
 }
 

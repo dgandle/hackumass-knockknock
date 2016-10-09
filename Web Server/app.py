@@ -13,7 +13,8 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     templateData = {
-        'image' : '/static/image.jpg'
+        'image' : '/static/image.jpg',
+        'route' : '/opening'
     }
     return render_template('index.html', **templateData)
 
@@ -21,7 +22,8 @@ def index():
 def runmotor():
     subprocess.call("sudo python static/servo3.py", shell = True)
     templateData = {
-        'image' : '/static/image.jpg'
+        'image' : '/static/image.jpg',
+        'route' : '/closing'
     }
     return render_template('index.html', **templateData)
 
@@ -29,7 +31,8 @@ def runmotor():
 def closemotor():
     subprocess.call("sudo python static/servo4.py", shell = True)
     templateData = {
-        'image' : '/static/image.jpg'
+        'image' : '/static/image.jpg',
+        'route' : '/opening'
     }
     return render_template('index.html', **templateData)
 
