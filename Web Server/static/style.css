@@ -125,26 +125,10 @@ a {
   fill: #2F292B;
 }
 
-#unlock-text-unlock {
+.unlock-text{
   font-size: 20px;
   position: relative;
   width: 100px;
   margin: auto;
   top: -474px;
-}
-
-#unlock-text-lock {
-  font-size: 20px;
-  position: relative;
-  width: 100px;
-  margin: auto;
-  top: -474px;
-}
-
-.show {
-	display: inline;
-}
-
-.hide {
-	display: none;
 }
