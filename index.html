@@ -46,7 +46,7 @@
           <img class='image' src='{{ image }}' alt="camera capture"/>
         </div>
 
-        <a class='unlock-container' href='/opening'>
+        <a id='unlock-container' href='{{ route }}'>
 
           <svg class='unlock-button' width="145px" height="43px" viewBox="440 866 145 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <desc>Created with Sketch.</desc>
@@ -56,11 +56,6 @@
 
           <p class='unlock-text'>unlock</p>
         </a>
-        <script type="text/javascript">
-          document.getElementsByClassName(".unlock-container").click(function () {
-            $(this).href="/closing";
-          });
-        </script>
 
       </div>
 
