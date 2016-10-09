@@ -132,3 +132,15 @@ a {
   margin: auto;
   top: -474px;
 }
+
+#clown-alert {
+	font-size: 72px;
+}
+
+.show {
+	display: inline;
+}
+
+.hide {
+	display: none;
+}
