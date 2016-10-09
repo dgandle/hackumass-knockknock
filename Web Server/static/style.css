@@ -51,13 +51,15 @@ table {
 
 /* ===== Begin Custom CSS ===== */
 
+@font-face { font-family: Apercu Pro; font-weight: bold; src: url('apercu_medium_pro.otf');}
+
 body {
   background-color: #2F292B;
   text-align: center;
 }
 
 p {
-  font-family: 'ApercuPro-Bold', sans-serif;
+  font-family: 'Apercu Pro', sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	color: #e5e7de;
